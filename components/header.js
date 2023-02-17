@@ -5,6 +5,7 @@ import Link from 'next/link'
 import styles from './header.module.css'
 
 export default function Header() {
+  console.log('🚀 ~ file: header.js:8 ~ Header')
   return (
     <header className={styles.header}>
       <div className={styles.left}>
