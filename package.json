@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "build:analyze": "ANALYZE=true  next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@next/bundle-analyzer": "^13.1.6",
+    "ms": "2.1.3",
+    "next": "^13.1.0",
+    "react": "^18.3.0-next",
+    "react-dom": "^18.3.0-next"
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "singleQuote": true,
+    "semi": false,
+    "tabWidth": 2,
+    "trailingComma": "none"
+  }
+}
