@@ -1,7 +1,5 @@
-'use client';
-
-import ErrorPlaceholder from '../components/error-placeholder';
+'use client'
 
 export default function Error({ error }) {
-  return <ErrorPlaceholder error={error} />;
+  return <>{error}</>
 }
