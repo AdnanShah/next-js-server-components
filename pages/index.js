@@ -1,5 +1,5 @@
-import Client from '../app/client/page'
-import Home from '../app/components/home'
+import ClientComponent from '../app/components/client'
+import ServerComponent from '../app/components/server'
 
 export default function Page({ data }) {
   console.log('🚀 pages => index.js')
@@ -7,9 +7,9 @@ export default function Page({ data }) {
   return (
     <>
       <h1>Client component (getServerSideProps)</h1>
-      <Client>
-        <Home data={data} />
-      </Client>
+      <ClientComponent>
+        <ServerComponent data={data} />
+      </ClientComponent>
     </>
   )
 }

@@ -1,15 +1,18 @@
-import Client from '../client/page'
-import Server from '../server/page'
+import { getData } from '../../lib/fetch-data'
+import ClientComponent from '../components/client'
+import ServerComponent from '../components/server'
 
-export default function MixMatchPage() {
+export default async function MixMatchPage() {
   console.log('🚀 ~ file: page.js:5 ~ MixMatchPage')
+  const data = await getData()
+
   return (
     <div>
       <h1>Mix Pages</h1>
       <div className="box-blue">
-        <Client>
-          <Server />
-        </Client>
+        <ClientComponent>
+          <ServerComponent data={data} />
+        </ClientComponent>
       </div>
     </div>
   )

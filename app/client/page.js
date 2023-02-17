@@ -16,7 +16,12 @@ export default function Client(props) {
       </>
     )
   }
-  return <h1>client Page</h1>
+
+  return (
+    <>
+      <h1>client Page</h1>
+    </>
+  )
 }
 
 // getServerSideProps is not supported
