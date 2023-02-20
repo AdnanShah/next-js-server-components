@@ -1,7 +1,7 @@
-import Home from './home'
+import Home from "./home"
 
 export default function ServerComponent({ data }) {
-  console.log('🚀 ~ ServerComponent')
+  console.log('🚀 ~ ServerComponent (this should not be in browser)')
 
   return (
     <>
