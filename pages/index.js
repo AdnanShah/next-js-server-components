@@ -1,5 +1,5 @@
-import ClientComponent from "../components/client"
-import ServerComponent from "../components/server"
+import ClientComponent from "../app/components/client"
+import ServerComponent from "../app/components/server"
 
 export default function Page({ data }) {
   console.log('🚀 pages => index.js')
